@@ -12,7 +12,6 @@ set -e
 
 # Step 1: Update the system
 echo "Updating system packages..."
-sudo echo "deb http://security.ubuntu.com/ubuntu jammy-security main" >> /etc/apt/sources.list
 sudo apt update
 
 # Check if Docker is already installed
